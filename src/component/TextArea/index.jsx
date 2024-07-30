@@ -7,7 +7,7 @@ const TextArea = ({ label, setValue, value, placeholder }) => {
       </div>
       <textarea
         type="text"
-        className="px-4 w-full border-solid border-[1.5px] border-gray text-dark
+        className="px-2 w-full border-solid border-[1.5px] border-gray text-dark  bg-white
         focus:outline-none focus:border-primary py-2"
         value={value}
         placeholder={placeholder}

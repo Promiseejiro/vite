@@ -16,8 +16,8 @@ const SelectInput = ({ label, setValue, value, placeholder }) => {
           onClick={() => {
             setShowDropDown(true);
           }}
-          className="py-3
-           px-4 w-full border-solid border-[1.5px] placeholder-gray-200 text-dark  
+          className="py-3  bg-white
+           px-2 w-full border-solid border-[1.5px] placeholder-gray-200 text-dark  
               focus:outline-none focus:bg-gray focus:border-primary-100 border-gray-2  overflow-hidden text-[14px] text-font-light placeholder:font-300 
              "
         ></input>

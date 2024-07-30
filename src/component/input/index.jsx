@@ -7,8 +7,8 @@ const TextInput = ({ label, setValue, value, placeholder }) => {
       </div>
       <input
         type="text"
-        className="px-4 w-full border-solid border-[1.5px] border-gray text-dark
-        focus:outline-none focus:border-primary py-2"
+        className="px-2 w-full border-solid border-[1.5px] border-gray text-dark
+        focus:outline-none focus:border-primary py-2 bg-white"
         value={value}
         placeholder={placeholder}
         onChange={(e) => {
