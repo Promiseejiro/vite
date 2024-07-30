@@ -19,7 +19,7 @@ const CategoryForm = () => {
       });
       // change the response.success to fit the response from your server
       if (response.success) {
-        // if request was success full show modal
+        // if request was successfull show modal
         setShowModal(true);
       }
       console.log(response);
